@@ -15,7 +15,7 @@ function Main(){
             <div>
             <div className="flex justify-center items-center h-[60vh]">
                     <div className="w-[20rem] h-[20rem] bg-white rounded-full">
-                        <img src="..\picture\profile.jpg" alt="Profile" className="w-[24rem] rounded-full border-4 border-blue-500 shadow-lg"/>
+                        <img src="public\picture\profile.jpg" alt="Profile" className="w-[24rem] rounded-full border-4 border-blue-500 shadow-lg"/>
                     </div>
                 </div>
             </div>

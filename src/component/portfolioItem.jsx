@@ -3,7 +3,7 @@ function PortfolioItem({project}){
     return(
         <div className="w-full">
             <div className="w-[500px] h-[450px] bg-cyan-950 p-5 border-dashed border-2 border-white mx-10 mb-16">
-                <img src={project.image} className='h-[150px] w-auto'/>
+                <img src={project.image} className='h-[150px] w-full object-contain'/>
                 <div className="text-3xl py-4 font-bold">
                     {project.title}
                 </div>
