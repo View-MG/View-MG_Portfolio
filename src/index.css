@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* เพิ่มในไฟล์ CSS */
+@layer components {
+    .scrollbar-custom {
+      scrollbar-width: thin; /* ความหนาของ scrollbar */
+      scrollbar-color: #1E40AF #D1D5DB; /* สี thumb และ track */
+    }
+  
+    .scrollbar-custom::-webkit-scrollbar {
+      width: 8px; /* ความกว้างของ scrollbar */
+    }
+  
+    .scrollbar-custom::-webkit-scrollbar-thumb {
+      background-color: #1E40AF; /* สีของ thumb */
+      border-radius: 4px; /* ทำมุมมน */
+    }
+  
+    .scrollbar-custom::-webkit-scrollbar-track {
+      background-color: #D1D5DB; /* สีของ track */
+      border-radius: 4px;
+    }
+  }
+  
